@@ -22,7 +22,7 @@ const Title = styled.div`
 const Description = styled.p`
   font-size: 2rem;
   max-width: 60vw;
-  font-family: "PixelGame", sans-serif;
+  font-family: "Oxanium", sans-serif;
   margin-left: 10px;
   color: silver;
 
