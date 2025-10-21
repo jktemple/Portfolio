@@ -76,8 +76,8 @@ const ContactMe: React.FC = () => {
 
   const handleSubmit = () => {
     const formattedMessage = `Hey my name is ${name}\n${message}`;
-    const url = `mailto:jktemple.games@gmail.com?body=${encodeURIComponent(formattedMessage)}`;
-    window.open(url, '_blank');
+    const url = `mailto:jktemple.games@gmail.com?subject=Contact%20From%20Portfolio&${encodeURIComponent(formattedMessage)}`;
+    window.open(url);
   };
 
   return (
