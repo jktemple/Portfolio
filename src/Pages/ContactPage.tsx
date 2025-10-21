@@ -95,7 +95,7 @@ const ContactMe: React.FC = () => {
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         />
-        <Button onClick={handleSubmit}>Reach Out Via EMail</Button>
+        <Button onClick={handleSubmit}>Reach Out Via Email</Button>
       </ContactContainer>
     </CenterContainer>
   );
