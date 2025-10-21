@@ -26,8 +26,8 @@ export const games: Game[] = [
       { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
     ],
     media: [
-      { source: "/images/games/GAME_NAME/Screenshot_1.png", type: MediaType.Image },
-      { source: "https://www.youtube.com/embed/dQw4w9WgXcQ", type: MediaType.YouTube },
+      { source: "/images/games/TurnStyle/TurnStyleScreenShot1.png", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/vsJ6eBUVqvs?si=ndGIClOWg99qNpTu", type: MediaType.YouTube },
       { source: "/images/games/GAME_NAME/Screenshot_2.png", type: MediaType.Image },
       { source: "/images/games/GAME_NAME/Screenshot_3.png", type: MediaType.Image },
       { source: "/images/games/GAME_NAME/Screenshot_4.png", type: MediaType.Image },
@@ -40,15 +40,11 @@ export const games: Game[] = [
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
-      { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
-      { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
+      { source: LinkImageSource.Github, url: "https://github.com/jktemple/Untitled-Parkour-Game" },
+      { source: LinkImageSource.ItchIo, url: "https://jktemple.itch.io/untitled-parkour-game" },
     ],
     media: [
-      { source: "/images/games/UntitledParkourGame/UntitledParkourGame_Gif1", type: MediaType.Image },
-      { source: "https://www.youtube.com/embed/dQw4w9WgXcQ", type: MediaType.YouTube },
-      { source: "/images/games/GAME_NAME/Screenshot_2.png", type: MediaType.Image },
-      { source: "/images/games/GAME_NAME/Screenshot_3.png", type: MediaType.Image },
-      { source: "/images/games/GAME_NAME/Screenshot_4.png", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/oJ0AgYTD5xU?si=BtGP0_YcIQYcV3Dc", type: MediaType.YouTube },
     ],
   }
 ];
