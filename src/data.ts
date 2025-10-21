@@ -3,7 +3,7 @@ import { AboutMeData, Game, GameEngine, LinkImageSource, MediaType, Platform } f
 export const PersonalInfo: AboutMeData = {
   name: "Josh Temple",
   role: "Generalist Game Programmer and Technical Designer",
-  introduction: "SHORT_INTRODUCTION",
+  introduction: "Generalist Game Programmer and Technical Designer from the Bay Area, CA",
   description: "TELL_ABOUT_YOURSELF",
   image: `${process.env.PUBLIC_URL}/images/Profile.jpg`,
   cvUri: `${process.env.PUBLIC_URL}/files/YOUR_CV.pdf`,
