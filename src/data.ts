@@ -28,9 +28,9 @@ export const games: Game[] = [
     media: [
       { source: "/images/games/TurnStyle/TurnStyleScreenShot1.png", type: MediaType.Image },
       { source: "https://www.youtube.com/embed/vsJ6eBUVqvs?si=ndGIClOWg99qNpTu", type: MediaType.YouTube },
-      { source: "/images/games/GAME_NAME/Screenshot_2.png", type: MediaType.Image },
-      { source: "/images/games/GAME_NAME/Screenshot_3.png", type: MediaType.Image },
-      { source: "/images/games/GAME_NAME/Screenshot_4.png", type: MediaType.Image },
+      { source: "/images/games/TurnStyle/TurnStyleScreenShot2.png", type: MediaType.Image },
+      { source: "/images/games/TurnStyle/TurnStyleScreenShot3.png", type: MediaType.Image },
+      { source: "/images/games/TurnStyle/TurnStyleScreenShot4.png", type: MediaType.Image },
     ],
   },
   {
