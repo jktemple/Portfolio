@@ -76,7 +76,7 @@ const ContactMe: React.FC = () => {
 
   const handleSubmit = () => {
     const formattedMessage = `Hey my name is ${name}\n${message}`;
-    const url = `https://wa.me/${process.env.REACT_APP_WA_NUMBER}?text=${encodeURIComponent(formattedMessage)}`;
+    const url = `mailto:jktemple.games@gmail.com?body=${encodeURIComponent(formattedMessage)}`;
     window.open(url, '_blank');
   };
 
@@ -95,7 +95,7 @@ const ContactMe: React.FC = () => {
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         />
-        <Button onClick={handleSubmit}>Send via WhatsApp</Button>
+        <Button onClick={handleSubmit}>Reach Out Via EMail</Button>
       </ContactContainer>
     </CenterContainer>
   );
