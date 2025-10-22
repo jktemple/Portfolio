@@ -4,7 +4,7 @@ export const PersonalInfo: AboutMeData = {
   name: "Josh Temple",
   role: "Generalist Game Programmer and Technical Designer",
   introduction: "Generalist Game Programmer and Technical Designer from the Bay Area, CA",
-  description: "TELL_ABOUT_YOURSELF",
+  description: "I'm Josh Temple, a game designer and programmer from the Bay Area, California. My love of games started when I fell in love with Magic: the Gathering after learning about it from the cool older kids at summer camp. Since then I've only fallen more in love with games in all their forms from card games to board games to video games. If I'm not playing or working on a game you can probably find me watching a San Francisco Giants game or with my nose stuck in a Sci-Fi or Fantasy book. I'm currently looking for opportunities, so feel free to get in touch.",
   image: `${process.env.PUBLIC_URL}/images/Profile.jpg`,
   cvUri: `${process.env.PUBLIC_URL}/files/YOUR_CV.pdf`,
   links: {
@@ -25,8 +25,7 @@ export const games: Game[] = [
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
-      { source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
-      { source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
+      { source: LinkImageSource.ItchIo, url: "https://lion-slime.itch.io/turnstyle" },
     ],
     media: [
       { source: "/images/games/TurnStyle/TurnStyleScreenShot1.png", type: MediaType.Image },
