@@ -34,20 +34,6 @@ export const games: Game[] = [
     ],
   },
   {
-    name: "Untitled Parkour Game",
-    description: "GAME_DESCRIPTION",
-    genres: ["GAME_GENRE", "GAME_GENRE..."],
-    platforms: [Platform.Windows],
-    engine: GameEngine.Unity,
-    links: [
-      { source: LinkImageSource.Github, url: "https://github.com/jktemple/Untitled-Parkour-Game" },
-      { source: LinkImageSource.ItchIo, url: "https://jktemple.itch.io/untitled-parkour-game" },
-    ],
-    media: [
-      { source: "https://www.youtube.com/embed/oJ0AgYTD5xU?si=BtGP0_YcIQYcV3Dc", type: MediaType.YouTube },
-    ],
-  },
-  {
     name: "Remembering Diane",
     description: "GAME_DESCRIPTION",
     genres: ["GAME_GENRE", "GAME_GENRE..."],
@@ -61,6 +47,20 @@ export const games: Game[] = [
       { source: "/images/games/RememberingDiane/RememberingDianeScreenShot1.png", type: MediaType.Image},
       { source: "https://www.youtube.com/embed/nxfbAfXVAEc?si=Vkoo74xNqLOjg2Bh", type: MediaType.YouTube },
       { source: "/images/games/RememberingDiane/RememberingDianeScreenShot2.png", type: MediaType.Image},
+    ],
+  },
+  {
+    name: "Untitled Parkour Game",
+    description: "GAME_DESCRIPTION",
+    genres: ["GAME_GENRE", "GAME_GENRE..."],
+    platforms: [Platform.Windows],
+    engine: GameEngine.Unity,
+    links: [
+      { source: LinkImageSource.Github, url: "https://github.com/jktemple/Untitled-Parkour-Game" },
+      { source: LinkImageSource.ItchIo, url: "https://jktemple.itch.io/untitled-parkour-game" },
+    ],
+    media: [
+      { source: "https://www.youtube.com/embed/oJ0AgYTD5xU?si=BtGP0_YcIQYcV3Dc", type: MediaType.YouTube },
     ],
   }
 ];
