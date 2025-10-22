@@ -60,6 +60,7 @@ export const games: Game[] = [
     media: [
       { source: "/images/games/RememberingDiane/RememberingDianeScreenShot1.png", type: MediaType.Image},
       { source: "https://www.youtube.com/embed/nxfbAfXVAEc?si=Vkoo74xNqLOjg2Bh", type: MediaType.YouTube },
+      { source: "/images/games/RememberingDiane/RememberingDianeScreenShot2.png", type: MediaType.Image},
     ],
   }
 ];
