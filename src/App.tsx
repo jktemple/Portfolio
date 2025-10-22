@@ -61,7 +61,7 @@ const App: React.FC = () => {
         <SelfSummary />
 
         <Navbar>
-          <NavbarLink to="/">Games 👾</NavbarLink>
+          <NavbarLink to="/">Games 🕹️</NavbarLink>
           <NavbarLink to="/about-me">About me 👨🏻‍💻</NavbarLink>
           <NavbarLink to="/contact">Contact 💬</NavbarLink>
         </Navbar>
