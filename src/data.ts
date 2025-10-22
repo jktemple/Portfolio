@@ -17,11 +17,11 @@ export const PersonalInfo: AboutMeData = {
 export const games: Game[] = [
   {
     name: "TurnStyle",
-    teamsize: " ",
-    projectLength: " ",
+    teamsize: "11",
+    projectLength: "4 Months",
     roles: ["Programmer"],
-    description: "GAME_DESCRIPTION",
-    genres: ["GAME_GENRE", "GAME_GENRE..."],
+    description: "TurnStyle is a turn-based RPG with a (literal) twist! Rotate your party of 5 and learn to balance the stats of all your members in order to defeat the monsters of the subway.",
+    genres: ["JRPG", "Narrative"],
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
@@ -38,11 +38,11 @@ export const games: Game[] = [
   },
   {
     name: "Remembering Diane",
-    teamsize: " ",
-    projectLength: " ",
+    teamsize: "6",
+    projectLength: "2 Weeks ",
     roles: ["Lead Programmer"],
     description: "Remembering Diane is a short and sweet narrative experience about  remembering a life of fulfilling travels. You play as half of an elderly couple suffering from Alzheimer's trying to remember where they've been using the pictures and souvenirs that they have collected over time. The game created during TheXPlace's Summer Game Jam and was featured on Unity's Twitch.tv channel.",
-    genres: ["GAME_GENRE", "GAME_GENRE..."],
+    genres: ["Narrative"],
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
@@ -57,11 +57,11 @@ export const games: Game[] = [
   },
   {
     name: "Untitled Parkour Game",
-    teamsize: " ",
-    projectLength: " ",
-    roles: ["Lead Programmer", "Lead Producer"],
-    description: "GAME_DESCRIPTION",
-    genres: ["GAME_GENRE", "GAME_GENRE..."],
+    teamsize: "12",
+    projectLength: "6 Months",
+    roles: ["Project Lead","Lead Programmer", "Lead Producer"],
+    description: "Untitled Parkour Game is a Multiplayer 1st Person Parkour game made in Unity that was developed as part of my Senior Capstone sequence. It's heavily inspired by games like Mirror's Edge, Gorilla Tag, and many others.",
+    genres: ["Action", "Platformer", "Multiplayer"],
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
