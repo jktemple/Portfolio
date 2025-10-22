@@ -58,7 +58,7 @@ export const games: Game[] = [
       { source: LinkImageSource.ItchIo, url: "https://jktemple.itch.io/untitled-parkour-game" },
     ],
     media: [
-      { source: "/images/games/RememberingDiane/RememberingDianeScreenShoot1.png", type: MediaType.Image},
+      { source: "/images/games/RememberingDiane/RememberingDianeScreenShot1.png", type: MediaType.Image},
       { source: "https://www.youtube.com/embed/nxfbAfXVAEc?si=Vkoo74xNqLOjg2Bh", type: MediaType.YouTube },
     ],
   }
