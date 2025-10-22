@@ -83,6 +83,10 @@ const GameInfo: React.FC<GameInfoProps> = ({ game }) => {
                     <InfoValue>{game.projectLength}</InfoValue>
                 </InfoRow>
                 <InfoRow>
+                    <InfoKey>Key Contributions:</InfoKey>
+                    <InfoValue>{game.contributions.join(", ")}</InfoValue>
+                </InfoRow>
+                <InfoRow>
                     <InfoKey>Platforms:</InfoKey>
                     <InfoValue>{game.platforms.join(", ")}</InfoValue>
                 </InfoRow>
@@ -100,7 +104,6 @@ const GameInfo: React.FC<GameInfoProps> = ({ game }) => {
                     </InfoValue>
                 </InfoRow>}
             </InfoTable>
-            <GameDescription>{game.contributions.join("\n")}</GameDescription>
             <LinksContainer>
                 {game.links.map((link, index) => (
                     <LogoButton key={index} size={35} source={link.source} linkTo={link.url} />
