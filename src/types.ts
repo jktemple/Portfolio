@@ -52,4 +52,5 @@ export interface Game {
   media: MediaItem[];
   platforms: Platform[];
   engine: GameEngine;
+  contributions: string[];
 }

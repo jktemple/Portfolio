@@ -34,6 +34,7 @@ export const games: Game[] = [
       { source: "/images/games/TurnStyle/TurnStyleScreenShot3.png", type: MediaType.Image },
       { source: "/images/games/TurnStyle/TurnStyleScreenShot4.png", type: MediaType.Image },
     ],
+    contributions : ["Contribution", "Contribution"]
   },
   {
     name: "Remembering Diane",
@@ -53,6 +54,7 @@ export const games: Game[] = [
       { source: "https://www.youtube.com/embed/nxfbAfXVAEc?si=Vkoo74xNqLOjg2Bh", type: MediaType.YouTube },
       { source: "/images/games/RememberingDiane/RememberingDianeScreenShot2.png", type: MediaType.Image},
     ],
+    contributions : ["Contribution", "Contribution"]
   },
   {
     name: "Untitled Parkour Game",
@@ -70,5 +72,6 @@ export const games: Game[] = [
     media: [
       { source: "https://www.youtube.com/embed/oJ0AgYTD5xU?si=BtGP0_YcIQYcV3Dc", type: MediaType.YouTube },
     ],
+    contributions : ["Contribution", "Contribution"]
   }
 ];
