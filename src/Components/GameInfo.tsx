@@ -72,7 +72,7 @@ const GameInfo: React.FC<GameInfoProps> = ({ game }) => {
                 </InfoRow>
                 <InfoRow>
                     <InfoKey>Role:</InfoKey>
-                    <InfoValue>{game.roles}</InfoValue>
+                    <InfoValue>{game.roles.join(", ")}</InfoValue>
                 </InfoRow>
                 <InfoRow>
                     <InfoKey>Team Size:</InfoKey>
