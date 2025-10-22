@@ -46,8 +46,8 @@ export const games: Game[] = [
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
     links: [
-      { source: LinkImageSource.Github, url: "https://github.com/jktemple/Untitled-Parkour-Game" },
-      { source: LinkImageSource.ItchIo, url: "https://jktemple.itch.io/untitled-parkour-game" },
+      { source: LinkImageSource.Github, url: "https://github.com/jktemple/TravelGame" },
+      { source: LinkImageSource.ItchIo, url: "https://jktemple.itch.io/remembering-diane" },
     ],
     media: [
       { source: "/images/games/RememberingDiane/RememberingDianeScreenShot1.png", type: MediaType.Image},
