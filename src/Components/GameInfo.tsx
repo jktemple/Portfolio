@@ -2,7 +2,7 @@ import React from "react";
 import { styled } from "styled-components";
 import { Game as GameInterface } from "../types";
 import LogoButton from "./LogoButton";
-import { Column, Row } from "../Styles/StyledComponents";
+import { Column, Row, Row2 } from "../Styles/StyledComponents";
 
 interface GameInfoProps {
   game: GameInterface;
@@ -31,11 +31,20 @@ const GameDescription = styled.p`
   }
 `;
 
+const Contributions = styled.p`
+  margin: 8;
+  font-size: 1.5rem;
+
+    @media (max-width: 768px) {
+    font-size: 1rem;
+  }
+  white-space: pre-line;
+`;
+
 const InfoTable = styled(Column)`
   gap: 5px;
   margin: 20px 0;
   font-size: 1.5rem;
-
   @media (max-width: 768px) {
     font-size: 1rem;
   }
@@ -44,10 +53,13 @@ const InfoTable = styled(Column)`
 const InfoRow = styled(Row)`
   gap: 8px;
 `;
+const InfoRow2 = styled(Row)`
+  gap: 75px;
+`;
 
 const InfoKey = styled.span`
   font-weight: bold;
-  min-width: 70px;
+  min-width: 10px;
   text-align: left;
 `;
 
@@ -83,10 +95,6 @@ const GameInfo: React.FC<GameInfoProps> = ({ game }) => {
                     <InfoValue>{game.projectLength}</InfoValue>
                 </InfoRow>
                 <InfoRow>
-                    <InfoKey>Key Contributions:</InfoKey>
-                    <InfoValue>{game.contributions.join(", ")}</InfoValue>
-                </InfoRow>
-                <InfoRow>
                     <InfoKey>Platforms:</InfoKey>
                     <InfoValue>{game.platforms.join(", ")}</InfoValue>
                 </InfoRow>
@@ -94,7 +102,6 @@ const GameInfo: React.FC<GameInfoProps> = ({ game }) => {
                     <InfoKey>Engine:</InfoKey>
                     <InfoValue>{game.engine}</InfoValue>
                 </InfoRow>
-
                 {game.source && <InfoRow>
                     <InfoKey>Source:</InfoKey>
                     <InfoValue >
@@ -104,6 +111,8 @@ const GameInfo: React.FC<GameInfoProps> = ({ game }) => {
                     </InfoValue>
                 </InfoRow>}
             </InfoTable>
+            <InfoKey>Contributions:</InfoKey>
+            <Contributions>{ game.contributions.join("\n")}</Contributions>
             <LinksContainer>
                 {game.links.map((link, index) => (
                     <LogoButton key={index} size={35} source={link.source} linkTo={link.url} />
