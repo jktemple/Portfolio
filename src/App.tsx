@@ -7,6 +7,7 @@ import SelfSummary from "./Components/SelfSummary";
 import AboutMe from "./Pages/AboutMe";
 import { Column } from "./Styles/StyledComponents";
 import Footer from "./Components/Footer";
+import WipPage from "./Pages/WorksInProgress"
 
 const AppContainer = styled(Column)`
   min-height: 90vh;
@@ -22,8 +23,9 @@ const AppContainer = styled(Column)`
 const Navbar = styled.nav`
   display: flex;
   justify-content: center;
+  align-items: baseline;
   margin-bottom: 20px;
-  gap: 30px;
+  gap: 20px;
 
   @media (max-width: 768px) {
     margin-bottom: 0;
@@ -31,7 +33,7 @@ const Navbar = styled.nav`
 `;
 
 const NavbarLink = styled(Link)`
-  font-size: 2.2rem;
+  font-size: 2.0rem;
   text-decoration: none;
   color: green;
   font-weight: bold;
@@ -62,6 +64,7 @@ const App: React.FC = () => {
 
         <Navbar>
           <NavbarLink to="/">Games 🕹️</NavbarLink>
+          <NavbarLink to="/wip">Works in progress 🛠</NavbarLink>
           <NavbarLink to="/about-me">About me 👨🏻‍💻</NavbarLink>
           <NavbarLink to="/contact">Contact 💬</NavbarLink>
         </Navbar>
@@ -70,6 +73,7 @@ const App: React.FC = () => {
           <Route path="/" element={<MainPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/about-me" element={<AboutMe />} />
+          <Route path="/wip" element={<WipPage />} />
         </Routes>
       </AppContainer>
       <Footer />

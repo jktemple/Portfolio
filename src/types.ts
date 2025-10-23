@@ -54,3 +54,4 @@ export interface Game {
   engine: GameEngine;
   contributions: string[];
 }
+
