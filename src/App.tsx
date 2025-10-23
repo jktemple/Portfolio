@@ -64,7 +64,7 @@ const App: React.FC = () => {
 
         <Navbar>
           <NavbarLink to="/">Games 🕹️</NavbarLink>
-          <NavbarLink to="/wip">Works in progress 🛠</NavbarLink>
+          <NavbarLink to="/wip">Works in progress 🚧</NavbarLink>
           <NavbarLink to="/about-me">About me 👨🏻‍💻</NavbarLink>
           <NavbarLink to="/contact">Contact 💬</NavbarLink>
         </Navbar>
