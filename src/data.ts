@@ -23,7 +23,7 @@ export const games: Game[] = [
     description: "TurnStyle is a turn-based RPG with a (literal) twist! Rotate your party of 5 and learn to balance the stats of all your members in order to defeat the monsters of the subway.",
     genres: ["JRPG", "Narrative"],
     platforms: [Platform.Windows],
-    engine: GameEngine.Unity,
+    engine: [GameEngine.Unity],
     links: [
       { source: LinkImageSource.ItchIo, url: "https://lion-slime.itch.io/turnstyle" },
     ],
@@ -44,7 +44,7 @@ export const games: Game[] = [
     description: "Remembering Diane is a short and sweet narrative experience about  remembering a life of fulfilling travels. You play as half of an elderly couple suffering from Alzheimer's trying to remember where they've been using the pictures and souvenirs that they have collected over time. The game created during TheXPlace's Summer Game Jam and was featured on Unity's Twitch.tv channel.",
     genres: ["Narrative"],
     platforms: [Platform.Windows],
-    engine: GameEngine.Unity,
+    engine: [GameEngine.Unity],
     links: [
       { source: LinkImageSource.Github, url: "https://github.com/jktemple/TravelGame" },
       { source: LinkImageSource.ItchIo, url: "https://jktemple.itch.io/remembering-diane" },
@@ -64,7 +64,7 @@ export const games: Game[] = [
     description: "Untitled Parkour Game is a Multiplayer 1st Person Parkour game made in Unity that was developed as part of my Senior Capstone sequence. It's heavily inspired by games like Mirror's Edge, Gorilla Tag, and many others.",
     genres: ["Action", "Platformer", "Multiplayer"],
     platforms: [Platform.Windows],
-    engine: GameEngine.Unity,
+    engine: [GameEngine.Unity],
     links: [
       { source: LinkImageSource.Github, url: "https://github.com/jktemple/Untitled-Parkour-Game" },
       { source: LinkImageSource.ItchIo, url: "https://jktemple.itch.io/untitled-parkour-game" },
@@ -85,7 +85,7 @@ export const wips: Game[] = [
     description: "TurnStyle is a turn-based RPG with a (literal) twist! Rotate your party of 5 and learn to balance the stats of all your members in order to defeat the monsters of the subway.",
     genres: ["JRPG", "Narrative"],
     platforms: [Platform.Windows],
-    engine: GameEngine.Unity,
+    engine: [GameEngine.Unity],
     links: [
       { source: LinkImageSource.ItchIo, url: "https://lion-slime.itch.io/turnstyle" },
     ],
@@ -102,23 +102,64 @@ export const wips: Game[] = [
 
 export const otherWorks: Game[] = [
   {
-    name: "Code Name Steel Lizard Art",
-    teamsize: "11",
-    projectLength: "4 Months",
-    roles: ["Programmer"],
-    description: "TurnStyle is a turn-based RPG with a (literal) twist! Rotate your party of 5 and learn to balance the stats of all your members in order to defeat the monsters of the subway.",
+    name: "3D Texturing",
+    teamsize: "1",
+    projectLength: "2 Weeks",
+    roles: ["3D texture Artist"],
+    description: "Took a 3D texturing class at a local community college, learned to use Substance Painter.",
     genres: ["JRPG", "Narrative"],
     platforms: [Platform.Windows],
-    engine: GameEngine.Unity,
+    engine: [GameEngine.SubstancePainter],
     links: [
       { source: LinkImageSource.ItchIo, url: "https://lion-slime.itch.io/turnstyle" },
     ],
     media: [
-      { source: "/images/games/TurnStyle/TurnStyleScreenShot1.png", type: MediaType.Image },
-      { source: "https://www.youtube.com/embed/vsJ6eBUVqvs?si=ndGIClOWg99qNpTu", type: MediaType.YouTube },
-      { source: "/images/games/TurnStyle/TurnStyleScreenShot2.png", type: MediaType.Image },
-      { source: "/images/games/TurnStyle/TurnStyleScreenShot3.png", type: MediaType.Image },
-      { source: "/images/games/TurnStyle/TurnStyleScreenShot4.png", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/_UTPG_cKgb8?si=SohdBK4umE8rzdCg", type: MediaType.YouTube },
+      { source: "https://www.youtube.com/embed/_UTPG_cKgb8?si=0zVMv8AqdQqzvWog", type: MediaType.YouTube },
+      { source: "/images/other/3DTexturing/SubstancePainterScreenshot1.png", type: MediaType.Image },
+    ],
+    contributions : ["Ported original prototype from Phaser to Unity", "Implemented Combat Mechanics and Subway Map"]
+  },
+  {
+    name: "Low Poly Wave Shader",
+    teamsize: "1",
+    projectLength: "2 Weeks",
+    roles: ["3D texture Artist"],
+    description: "Created a few shader projects to dip my toes into shader programming",
+    genres: ["JRPG", "Narrative"],
+    platforms: [Platform.Windows],
+    engine: [GameEngine.Unity],
+    links: [
+      { source: LinkImageSource.ItchIo, url: "https://lion-slime.itch.io/turnstyle" },
+    ],
+    media: [
+      { source: "https://www.youtube.com/embed/RIwOhX0Lt3U?si=MEXLWllE2Eagkw3N", type: MediaType.YouTube },
+      { source: "https://www.youtube.com/embed/eVaIo52wt2w?si=1GHtWG_eP5CPFYwF", type: MediaType.YouTube },
+      { source: "/images/other/Shaders/WaveShaderScreenShot1.png", type: MediaType.Image },
+      { source: "/images/other/Shaders/WaveShaderScreenShot2.png", type: MediaType.Image },
+    ],
+    contributions : ["Ported original prototype from Phaser to Unity", "Implemented Combat Mechanics and Subway Map"]
+  },
+  {
+    name: "Unreal Stylized Rendering",
+    teamsize: "1",
+    projectLength: "2 Weeks",
+    roles: ["3D texture Artist"],
+    description: "Created a few shader projects to dip my toes into shader programming",
+    genres: ["JRPG", "Narrative"],
+    platforms: [Platform.Windows],
+    engine: [GameEngine.Unreal],
+    links: [
+      { source: LinkImageSource.ItchIo, url: "https://lion-slime.itch.io/turnstyle" },
+    ],
+    media: [
+      { source: "https://www.youtube.com/embed/od_PaU07GqM?si=2X0bYXtMK_EvrkPH", type: MediaType.YouTube },
+      { source: "https://www.youtube.com/embed/6O1dUHdllFw?si=ZrNy1lJvUCMPOd0m", type: MediaType.YouTube },
+      { source: "/images/other/Shaders/KuwaharaScreenShot1.png", type: MediaType.Image },
+      { source: "/images/other/Shaders/CellShadingScreenShot1.png", type: MediaType.Image },
+      { source: "/images/other/Shaders/CellShadingScreenShot2.png", type: MediaType.Image },
+      { source: "/images/other/Shaders/CellShadingScreenShot3.png", type: MediaType.Image },
+      
     ],
     contributions : ["Ported original prototype from Phaser to Unity", "Implemented Combat Mechanics and Subway Map"]
   },

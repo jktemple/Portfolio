@@ -79,8 +79,8 @@ const OtherWorkInfo: React.FC<GameInfoProps> = ({ game }) => {
 
             <InfoTable>
                 <InfoRow>
-                    <InfoKey>Platforms:</InfoKey>
-                    <InfoValue>{game.platforms.join(", ")}</InfoValue>
+                    <InfoKey>Programs Used:</InfoKey>
+                    <InfoValue>{game.engine.join(", ")}</InfoValue>
                 </InfoRow>
                 {game.source && <InfoRow>
                     <InfoKey>Source:</InfoKey>

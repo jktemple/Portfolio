@@ -92,7 +92,7 @@ const WipInfo: React.FC<GameInfoProps> = ({ game }) => {
                 </InfoRow>
                 <InfoRow>
                     <InfoKey>Engine:</InfoKey>
-                    <InfoValue>{game.engine}</InfoValue>
+                    <InfoValue>{game.engine.join(", ")}</InfoValue>
                 </InfoRow>
                 {game.source && <InfoRow>
                     <InfoKey>Source:</InfoKey>
