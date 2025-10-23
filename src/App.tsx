@@ -8,6 +8,7 @@ import AboutMe from "./Pages/AboutMe";
 import { Column } from "./Styles/StyledComponents";
 import Footer from "./Components/Footer";
 import WipPage from "./Pages/WorksInProgress"
+import OtherWorksPage from "./Pages/OtherWorkPage";
 
 const AppContainer = styled(Column)`
   min-height: 90vh;
@@ -65,6 +66,7 @@ const App: React.FC = () => {
         <Navbar>
           <NavbarLink to="/">Games 🕹️</NavbarLink>
           <NavbarLink to="/wip">Works in progress 🚧</NavbarLink>
+          <NavbarLink to="/other-work">Other work 🎨</NavbarLink>
           <NavbarLink to="/about-me">About me 👨🏻‍💻</NavbarLink>
           <NavbarLink to="/contact">Contact 💬</NavbarLink>
         </Navbar>
@@ -74,6 +76,7 @@ const App: React.FC = () => {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/about-me" element={<AboutMe />} />
           <Route path="/wip" element={<WipPage />} />
+          <Route path="/other-work" element={<OtherWorksPage/>}/>
         </Routes>
       </AppContainer>
       <Footer />

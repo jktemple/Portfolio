@@ -99,3 +99,27 @@ export const wips: Game[] = [
     contributions : ["Ported original prototype from Phaser to Unity", "Implemented Combat Mechanics and Subway Map"]
   },
 ];
+
+export const otherWorks: Game[] = [
+  {
+    name: "Code Name Steel Lizard Art",
+    teamsize: "11",
+    projectLength: "4 Months",
+    roles: ["Programmer"],
+    description: "TurnStyle is a turn-based RPG with a (literal) twist! Rotate your party of 5 and learn to balance the stats of all your members in order to defeat the monsters of the subway.",
+    genres: ["JRPG", "Narrative"],
+    platforms: [Platform.Windows],
+    engine: GameEngine.Unity,
+    links: [
+      { source: LinkImageSource.ItchIo, url: "https://lion-slime.itch.io/turnstyle" },
+    ],
+    media: [
+      { source: "/images/games/TurnStyle/TurnStyleScreenShot1.png", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/vsJ6eBUVqvs?si=ndGIClOWg99qNpTu", type: MediaType.YouTube },
+      { source: "/images/games/TurnStyle/TurnStyleScreenShot2.png", type: MediaType.Image },
+      { source: "/images/games/TurnStyle/TurnStyleScreenShot3.png", type: MediaType.Image },
+      { source: "/images/games/TurnStyle/TurnStyleScreenShot4.png", type: MediaType.Image },
+    ],
+    contributions : ["Ported original prototype from Phaser to Unity", "Implemented Combat Mechanics and Subway Map"]
+  },
+];
