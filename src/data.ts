@@ -145,7 +145,7 @@ export const otherWorks: Game[] = [
     teamsize: "1",
     projectLength: "2 Weeks",
     roles: ["3D texture Artist"],
-    description: "used Unreal's material graph to create stylized rendering post processing effects using a anisotropic Kuwahara filter to create a painterly effect and also created a physically based cell-shading and outline effect.",
+    description: "Used Unreal's material graph to create stylized rendering post processing effects using a anisotropic Kuwahara filter to create a painterly effect and also created a physically based cell-shading and outline effect.",
     genres: ["JRPG", "Narrative"],
     platforms: [Platform.Windows],
     engine: [GameEngine.Unreal],
