@@ -105,7 +105,7 @@ export const otherWorks: Game[] = [
     description: "Took a 3D texturing class at a local community college, learned to use Substance Painter.",
     genres: ["JRPG", "Narrative"],
     platforms: [Platform.Windows],
-    engine: [GameEngine.SubstancePainter],
+    engine: [GameEngine.SubstancePainter, GameEngine.Blender],
     links: [
       { source: LinkImageSource.ItchIo, url: "https://lion-slime.itch.io/turnstyle" },
     ],

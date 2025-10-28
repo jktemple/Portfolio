@@ -48,7 +48,7 @@ const SelfSummary: React.FC = () => {
     <SelfSummaryContainer>
       <TopRow>
         <Row>
-          <Logo src={`${process.env.PUBLIC_URL}/favicon.ico`} />
+          <Logo src={`${process.env.PUBLIC_URL}/android-chrome-512x512.png`} />
           <Title>{PersonalInfo.name}</Title>
         </Row>
         <Row>

@@ -15,6 +15,7 @@ export enum GameEngine {
   Unity = "Unity",
   Unreal = "Unreal",
   SubstancePainter = "Substance Painter",
+  Blender = "Blender",
 }
 
 export enum MediaType {
