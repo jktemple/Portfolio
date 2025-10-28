@@ -90,7 +90,7 @@ export const wips: Game[] = [
       { source: LinkImageSource.ItchIo, url: "https://lion-slime.itch.io/turnstyle" },
     ],
     media: [
-
+      { source: "https://www.youtube.com/embed/oJ0AgYTD5xU?si=BtGP0_YcIQYcV3Dc", type: MediaType.YouTube },
     ],
     contributions : ["Ported original prototype from Phaser to Unity", "Implemented Combat Mechanics and Subway Map"]
   },
