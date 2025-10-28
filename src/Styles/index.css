@@ -38,13 +38,13 @@ body {
 }
 
 a {
-  color: #4e9f3d;
+  color: #B7334D;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #3e8f32;
+  color: #c4665b;
 }
 
 input, select, textarea {
