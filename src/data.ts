@@ -78,11 +78,11 @@ export const games: Game[] = [
 
 export const wips: Game[] = [
   {
-    name: "Code Name Steel Lizard",
+    name: "Codename Steel Lizard",
     teamsize: "11",
     projectLength: "4 Months",
     roles: ["Programmer"],
-    description: "TurnStyle is a turn-based RPG with a (literal) twist! Rotate your party of 5 and learn to balance the stats of all your members in order to defeat the monsters of the subway.",
+    description: "Codename Steel Lizard is a continuation of and/or a successor to Untitled Parkour Game. Starting from a brand new codebase with new movement mechanics like rope and bar swinging among others, Codename Steel Lizard will be a single player experience focusing on exploration and puzzle solving. I'm currently working solo on the project and currently prototyping and refining the movement mechanics, level design and puzzles. Once a vertical slice of the movement and puzzles is completed I may begin to look for collaborators to build out the games visuals. If you're interesting in potentially joining the project feel free to reach out",
     genres: ["JRPG", "Narrative"],
     platforms: [Platform.Windows],
     engine: [GameEngine.Unity],
@@ -90,11 +90,7 @@ export const wips: Game[] = [
       { source: LinkImageSource.ItchIo, url: "https://lion-slime.itch.io/turnstyle" },
     ],
     media: [
-      { source: "/images/games/TurnStyle/TurnStyleScreenShot1.png", type: MediaType.Image },
-      { source: "https://www.youtube.com/embed/vsJ6eBUVqvs?si=ndGIClOWg99qNpTu", type: MediaType.YouTube },
-      { source: "/images/games/TurnStyle/TurnStyleScreenShot2.png", type: MediaType.Image },
-      { source: "/images/games/TurnStyle/TurnStyleScreenShot3.png", type: MediaType.Image },
-      { source: "/images/games/TurnStyle/TurnStyleScreenShot4.png", type: MediaType.Image },
+      
     ],
     contributions : ["Ported original prototype from Phaser to Unity", "Implemented Combat Mechanics and Subway Map"]
   },
