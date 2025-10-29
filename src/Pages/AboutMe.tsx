@@ -14,7 +14,7 @@ const ProfileImage = styled.img`
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 5px solid rgb(238, 231, 166);
+  border: 5px solid #F2CDB1;
 
   @media (max-width: 768px) {
     width: 100px;

@@ -54,7 +54,7 @@ export const games: Game[] = [
       { source: "https://www.youtube.com/embed/nxfbAfXVAEc?si=Vkoo74xNqLOjg2Bh", type: MediaType.YouTube },
       { source: "/images/games/RememberingDiane/RememberingDianeScreenShot2.png", type: MediaType.Image},
     ],
-    contributions : ["Implemented Ink dialouge system"]
+    contributions : ["Implemented Ink dialouge system and UI"]
   },
   {
     name: "Untitled Parkour Game",
@@ -72,7 +72,7 @@ export const games: Game[] = [
     media: [
       { source: "https://www.youtube.com/embed/oJ0AgYTD5xU?si=BtGP0_YcIQYcV3Dc", type: MediaType.YouTube },
     ],
-    contributions : ["Designed and implemented core movement mechanics", "Handled Network programming using Netcode For GameObjects"]
+    contributions : ["Designed and implemented core movement mechanics", "Handled Network programming using Netcode For GameObjects, Relay, and Lobby."]
   }
 ];
 
