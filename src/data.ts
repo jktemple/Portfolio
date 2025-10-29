@@ -102,7 +102,7 @@ export const otherWorks: Game[] = [
     teamsize: "1",
     projectLength: "2 Weeks",
     roles: ["3D texture Artist"],
-    description: "During my time since graduating from UC Santa Cruz I’ve sought out ways to expand my skillset outside of my core competency of programming and game design. One of those ways was taking a class in the basics of 3D texturing from my local community college. The class was taught in Substance Painter and the project displayed here was part of the coursework. I’m very inspired by the art of impressionist painters like Claude Monet and Renoir, so I made use of newly releasedSubstance Painter features to try to emulate a similar style.",
+    description: "During my time since graduating from UC Santa Cruz I’ve sought out ways to expand my skillset outside of my core competency of programming and game design. One of those ways was taking a class in the basics of 3D texturing from my local community college. The class was taught in Substance Painter and the project displayed here was part of the coursework. I’m very inspired by the art of impressionist painters like Claude Monet and Renoir, so I made use of newly released Substance Painter features to try to emulate a similar style.",
     genres: ["JRPG", "Narrative"],
     platforms: [Platform.Windows],
     engine: [GameEngine.SubstancePainter, GameEngine.Blender],
