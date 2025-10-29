@@ -6,7 +6,7 @@ export const PersonalInfo: AboutMeData = {
   introduction: "Generalist Game Programmer and Technical Designer from the Bay Area, CA",
   description: "I'm Josh Temple, a game designer and programmer from the Bay Area, California. My love of games started when I fell in love with Magic: the Gathering after learning about it from the cool older kids at summer camp. Since then I've only fallen more in love with games in all their forms from card games to board games to video games. If I'm not playing or working on a game you can probably find me watching a San Francisco Giants game or with my nose stuck in a Sci-Fi or Fantasy book. I'm currently looking for opportunities, so feel free to get in touch.",
   image: `${process.env.PUBLIC_URL}/images/Profile.jpg`,
-  cvUri: `${process.env.PUBLIC_URL}/files/YOUR_CV.pdf`,
+  cvUri: `${process.env.PUBLIC_URL}/files/Josh_Temple_CV.pdf`,
   links: {
     github: "https://github.com/jktemple",
     itchIO: "https://jktemple.itch.io",
