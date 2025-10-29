@@ -144,7 +144,7 @@ export const otherWorks: Game[] = [
     teamsize: "1",
     projectLength: "2 Weeks",
     roles: ["3D texture Artist"],
-    description: "This small project was used to dip my toes into the world of shader programming in Unity. I set out to create a lowpoly stylized wave shader. The shader is made using Unity’s Shader Graph and combines both displacement and fragment shading. The shader also includes depth and foam effects, both at the edges of objects and at the crest of waves.",
+    description: "This small project was used to dip my toes into the world of shader programming in Unity. I set out to create a low-poly stylized wave shader. The shader is made using Unity’s Shader Graph and combines both displacement and fragment shading. The shader also includes depth and foam effects, both at the edges of objects and at the crest of waves.",
     genres: ["JRPG", "Narrative"],
     platforms: [Platform.Windows],
     engine: [GameEngine.Unity],
