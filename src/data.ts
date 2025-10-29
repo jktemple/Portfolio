@@ -4,7 +4,7 @@ export const PersonalInfo: AboutMeData = {
   name: "Josh Temple",
   role: "Generalist Game Programmer and Technical Designer",
   introduction: "Generalist Game Programmer and Technical Designer from the Bay Area, CA",
-  description: "I'm Josh Temple, a game designer and programmer from the Bay Area, California. My love of games started when I fell in love with Magic: the Gathering after learning about it from the cool older kids at summer camp. Since then I've only fallen more in love with games in all their forms from card games to board games to video games. If I'm not playing or working on a game you can probably find me watching a San Francisco Giants game or with my nose stuck in a Sci-Fi or Fantasy book. I'm currently looking for opportunities, so feel free to get in touch.",
+  description: "I'm Josh Temple, a game designer and programmer from the Bay Area, California. My love of games started when I fell in love with Magic: the Gathering after learning about it from the cool older kids at summer camp. Since then I've only fallen more in love with games in all their forms from card games to board games to video games. In the fall of 2023 I graduated from the University of California Santa Cruz with a B.S in Computer Science: Computer Game Design. If I'm not playing or working on a game you can probably find me watching a San Francisco Giants game or with my nose stuck in a Sci-Fi or Fantasy book. I'm currently looking for opportunities, so feel free to get in touch.",
   image: `${process.env.PUBLIC_URL}/images/Profile.jpg`,
   cvUri: `${process.env.PUBLIC_URL}/files/Josh_Temple_CV.pdf`,
   links: {
@@ -102,7 +102,7 @@ export const otherWorks: Game[] = [
     teamsize: "1",
     projectLength: "2 Weeks",
     roles: ["3D texture Artist"],
-    description: "Took a 3D texturing class at a local community college, learned to use Substance Painter.",
+    description: "During my time since graduating from UC Santa Cruz I’ve sought out ways to expand my skillset outside of my core competency of programming and game design. One of those ways was taking a class in the basics of 3D texturing from my local community college. The class was taught in Substance Painter and the project displayed here was part of the coursework. I’m very inspired by the art of impressionist painters like Claude Monet and Renoir, so I made use of newly releasedSubstance Painter features to try to emulate a similar style.",
     genres: ["JRPG", "Narrative"],
     platforms: [Platform.Windows],
     engine: [GameEngine.SubstancePainter, GameEngine.Blender],
