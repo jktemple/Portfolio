@@ -117,26 +117,6 @@ export const otherWorks: Game[] = [
     contributions : ["Ported original prototype from Phaser to Unity", "Implemented Combat Mechanics and Subway Map"]
   },
   {
-    name: "Low Poly Wave Shader",
-    teamsize: "1",
-    projectLength: "2 Weeks",
-    roles: ["3D texture Artist"],
-    description: "Created a shader in Unity's shader graph to create Low-poly ocean waves including depth and foam effects",
-    genres: ["JRPG", "Narrative"],
-    platforms: [Platform.Windows],
-    engine: [GameEngine.Unity],
-    links: [
-      { source: LinkImageSource.ItchIo, url: "https://lion-slime.itch.io/turnstyle" },
-    ],
-    media: [
-      { source: "https://www.youtube.com/embed/RIwOhX0Lt3U?si=MEXLWllE2Eagkw3N", type: MediaType.YouTube },
-      { source: "https://www.youtube.com/embed/eVaIo52wt2w?si=1GHtWG_eP5CPFYwF", type: MediaType.YouTube },
-      { source: "/images/other/Shaders/WaveShaderScreenShot1.png", type: MediaType.Image },
-      { source: "/images/other/Shaders/WaveShaderScreenShot2.png", type: MediaType.Image },
-    ],
-    contributions : ["Ported original prototype from Phaser to Unity", "Implemented Combat Mechanics and Subway Map"]
-  },
-  {
     name: "Unreal Stylized Rendering",
     teamsize: "1",
     projectLength: "2 Weeks",
@@ -156,6 +136,26 @@ export const otherWorks: Game[] = [
       { source: "/images/other/Shaders/CellShadingScreenShot2.png", type: MediaType.Image },
       { source: "/images/other/Shaders/CellShadingScreenShot3.png", type: MediaType.Image },
       
+    ],
+    contributions : ["Ported original prototype from Phaser to Unity", "Implemented Combat Mechanics and Subway Map"]
+  },
+  {
+    name: "Low Poly Wave Shader",
+    teamsize: "1",
+    projectLength: "2 Weeks",
+    roles: ["3D texture Artist"],
+    description: "This small project was used to dip my toes into the world of shader programming in Unity. I set out to create a lowpoly stylized wave shader. The shader is made using Unity’s Shader Graph and combines both displacement and fragment shading. The shader also includes depth and foam effects, both at the edges of objects and at the crest of waves.",
+    genres: ["JRPG", "Narrative"],
+    platforms: [Platform.Windows],
+    engine: [GameEngine.Unity],
+    links: [
+      { source: LinkImageSource.ItchIo, url: "https://lion-slime.itch.io/turnstyle" },
+    ],
+    media: [
+      { source: "https://www.youtube.com/embed/RIwOhX0Lt3U?si=MEXLWllE2Eagkw3N", type: MediaType.YouTube },
+      { source: "https://www.youtube.com/embed/eVaIo52wt2w?si=1GHtWG_eP5CPFYwF", type: MediaType.YouTube },
+      { source: "/images/other/Shaders/WaveShaderScreenShot1.png", type: MediaType.Image },
+      { source: "/images/other/Shaders/WaveShaderScreenShot2.png", type: MediaType.Image },
     ],
     contributions : ["Ported original prototype from Phaser to Unity", "Implemented Combat Mechanics and Subway Map"]
   },
